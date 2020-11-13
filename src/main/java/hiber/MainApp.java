@@ -37,7 +37,7 @@ public class MainApp {
       }
 
       User userCar = userService.whoseCar(car1.getModel(),car1.getSeries());
-      System.out.println("The " + car1.toString() + " belongs " + userCar.getFirstName()
+      System.out.println("The " + car1.toString() + " belongs to " + userCar.getFirstName()
               + " " + userCar.getLastName() + " " + userCar.getEmail());
 
       context.close();
